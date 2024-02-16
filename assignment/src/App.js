@@ -1,9 +1,9 @@
 import './App.css';
 import { useState,useEffect } from 'react';
 import { Image } from '@chakra-ui/react';
-import Membership from './Pages/Membership';
-import Badges from './Pages/Badges';
-import PointHistory from './Pages/PointHistory';
+import Membership from './Components/Membership';
+import Badges from './Components/Badges';
+import PointHistory from './Components/PointHistory';
 
 const App=()=> {
   const [image, SetImage] = useState("")
